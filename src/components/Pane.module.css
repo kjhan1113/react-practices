@@ -1,0 +1,22 @@
+.left {
+  float: left;
+  margin: 0 1.5% 0 3%;
+  width: 45.5%;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  margin: 0 3% 0 1.5%;
+  width: 45.5%;
+}
+
+.title {
+  font-family: DauphinPlain;
+  font-weight: lighter;
+  color: burlywood;
+}
+
+.text {
+  text-align: justify;
+}

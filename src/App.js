@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Home from "./components/Home";
-import P1 from "./components/P1";
-import P2 from "./components/P2";
+import Home from "./pages/Home";
+import P1 from "./pages/TextReader";
+import P2 from "./pages/P2";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/p1">P1</Link>
+              <Link to="/textreader">Text Reader</Link>
             </li>
             <li>
               <Link to="/p2">P2</Link>
@@ -25,7 +25,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/p1" element={<P1 />} />
+            <Route path="/textreader" element={<P1 />} />
             <Route path="/p2" element={<P2 />} />
           </Routes>
         </div>
